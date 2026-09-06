@@ -46,7 +46,7 @@ test
 robots.txt
 phpinfo.php
 ```
-##The script generates requests such as:
+## The script generates requests such as:
 
 http://LAB_IP/admin
 http://LAB_IP/login
@@ -54,7 +54,7 @@ http://LAB_IP/test
 http://LAB_IP/robots.txt
 http://LAB_IP/phpinfo.php
 
-##Technologies Used
+## Technologies Used
 
 Python
 Requests library
@@ -64,7 +64,7 @@ Wordlists
 Gobuster
 Kali Linux
 
-##Example Wordlist
+## Example Wordlist
 
 admin
 login
@@ -93,7 +93,7 @@ private
 admin.php
 login.php
 
-##Testing Environment
+## Testing Environment
 
 The Python script and Gobuster were tested against the same intentionally vulnerable and authorized laboratory environment.
 
@@ -101,7 +101,7 @@ The Python script and Gobuster were tested against the same intentionally vulner
 
 gobuster dir -u http://LAB_IP -w wordlist.txt
 
-##Key Learnings
+## Key Learnings
 
 Through this project, I learned:
 
@@ -116,7 +116,7 @@ Limitations
 
 This is a basic learning implementation.
 
-##Current limitations include:
+## Current limitations include:
 
 Sequential requests
 Small wordlist
@@ -128,7 +128,7 @@ No extension enumeration
 No advanced filtering
 Future Improvements
 
-##Possible improvements include:
+## Possible improvements include:
 
 Add command-line arguments
 Add multithreading
@@ -145,7 +145,7 @@ This tool should only be used against systems that you own or have explicit perm
 
 Testing for this project was performed in an authorized laboratory environment.
 
-##Author
+## Author
 
 Chethan M
 
